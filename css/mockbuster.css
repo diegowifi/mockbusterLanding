@@ -1,0 +1,515 @@
+@import url(http://fonts.googleapis.com/css?family=Signika);
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #4a297c;
+}
+
+header{
+margin: 0 auto;
+width:90%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+h1
+{
+  font-size: 70px;
+  font-family: 'Signika', sans-serif;
+  color:#FFF;
+  letter-spacing: 5px;
+
+  -webkit-text-shadow:
+  -1px 1px 0px #292235,
+  -2px 2px 0px #292235,
+  -3px 3px 0px #292235,
+  -4px 4px 0px #292235,
+  -5px 5px 0px #292235,
+  -6px 6px 0px #292235;
+  -moz-text-shadow:
+  -1px 1px 0px #292235,
+  -2px 2px 0px #292235,
+  -3px 3px 0px #292235,
+  -4px 4px 0px #292235,
+  -5px 5px 0px #292235,
+  -6px 6px 0px #292235;
+  text-shadow: 
+  -1px 1px 0px #292235,
+  -2px 2px 0px #292235,
+  -3px 3px 0px #292235,
+  -4px 4px 0px #292235,
+  -5px 5px 0px #292235,
+  -6px 6px 0px #292235;
+}
+
+
+.section1{ 
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom:40px;
+}
+
+.demoVideo
+{
+    border:solid 2px #000;
+  width:61.8%;
+  height: 410px;
+  display:inline-block;
+    margin-bottom:20px;
+}
+
+.demoInfo
+{
+  width: 35%;
+  height: auto;
+  margin-left:30px;
+  display:inline-block;
+    vertical-align:top;
+  padding:10px;
+}
+
+.demoInfo p
+{
+  font-family: Helvetica;
+  font-size: 30px;
+  color: #FFF;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.demoInfo a {
+  background-color: #272133;
+  padding: 20px 70px;
+  width: 60%;
+  color: #FFF;
+  font-size: 25px;
+  margin-top: 20px;
+  font-family: Helvetica;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border-radius:5px;
+}
+
+
+.demoInfo a:hover {
+  background-color: #312942;
+}
+
+.info
+{
+  width: 100%;
+  height: auto;
+  background-color: #cecece;
+}
+
+.info-inner
+{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+    color:#292235;
+}
+
+.info h2{
+    color:#292235;
+    font-family:Helvetica;
+    font-size:26px;
+}
+
+.info p{
+    color:#5b5b5b;
+    font-family:Helvetica;
+    padding-top:10px;
+}
+
+.info i{
+padding:10px 0 10px 0;
+}
+
+.part1, .part2, .part3
+{
+    width:29%;
+    height:300px;
+    display:inline-block;
+    margin-right:20px;
+    text-align:center;
+    padding:10px;
+    margin:10px 40px 10px 0;
+    vertical-align:top;
+}
+
+.part3{
+margin-right:-20px;
+}
+/*
+.part1
+{
+  width: 31.6%;
+  height: 250px;
+  display:inline-block;
+  margin:20px 20px 20px 0;
+  text-align: center;
+  border: solid 2px #adadad;
+    float:left;
+  vertical-align: top;
+padding:10px;
+}
+.part2
+{
+  width: 31.6%;
+  height: 250px;
+  display:inline-block;
+  margin:20px 19px 20px 4px;
+  text-align: center;
+  border: solid 2px #adadad;
+vertical-align: top;
+}
+.part3
+{
+  width: 31.6%;
+  height:250px;
+  display:inline-block;
+  margin:20px 0px 20px 0;
+  text-align: center;
+  border: solid 2px #adadad;
+vertical-align: top;
+}
+*/
+
+
+.install
+{
+  width: 90%;
+  height: auto;
+  background-color: #272133;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  color:#cecece;
+}
+
+.install h2{
+font-family:Helvetica;
+font-size:30px;
+padding:20px;
+}
+
+.install h3{
+font-family:Helvetica;
+font-size:22px;
+}
+
+.install p{
+font-family:Helvetica;
+    font-size:16px;
+}
+
+.ins-1, .ins-2, .ins-3
+{
+    width:29.8%;
+    height:200px;
+    display:inline-block;
+    margin:0 20px 10px 0px;
+    padding:10px;
+    vertical-align:top;
+}
+
+.ins-1{margin-left:10px;}
+
+.ins-3{
+margin-right:-20px;
+}
+
+.credits
+{
+  width: 100%;
+  height:auto;
+  background-color: #cecece;
+  margin: 20px auto;
+  margin-bottom: -20px;
+}
+
+.profile
+{
+width: 70%;
+height:auto;
+margin: 0 auto;
+padding-bottom:80px;
+}
+
+.profile img
+{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  margin-top:40px;
+  vertical-align:top;
+  display:inline-block;
+}
+
+.profile p
+{
+  width: 86.8%;
+  display:inline-block;
+margin-top:45px;
+  color: #5b5b5b;
+  font-size: 16px;
+  letter-spacing:1px;
+  font-family:Helvetica;
+  margin-left:10px;
+}
+
+
+
+
+
+/* Main Wrap */
+#videoWrap {
+  position: relative;
+  margin: 0 auto;
+  max-width:900px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  overflow: hidden;
+  padding-bottom: 39.6%;
+  padding-top: 0px;
+  height: 0;
+}
+
+/* The actual video */
+#mainVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  background:red;
+}
+
+/* Control menu */
+#controls {
+  position: absolute;
+  z-index: 2147483647;
+  width: 100%;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #272133;
+  opacity: 0;
+  color:#fff;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+#mainVideo:hover ~ #controls {
+  opacity: 1;
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -ms-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+}
+
+#controls:hover {
+  opacity: 1;
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -ms-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+}
+
+/* Default Button */
+.videoBtn {
+  background: none;
+  outline: none;
+  border: 0;
+  width: 9%;
+  cursor: pointer;
+  padding:2em 0 1.4em 0;
+}
+
+.videoBtn:hover {
+  background: rgba(225,225,225,.1);
+}
+
+/* Play Button */
+#playPausebtn {
+  float: left;
+  margin-right: 0px;
+}
+
+#playPausebtn:hover {
+  background: rgba(225,225,225,.1);
+}
+
+/* Full screen Button */
+#fullscreenbtn,#mutebtn {
+  float: right;
+  width: 9%;
+}
+
+#current,#duration {
+  display: inline-block;
+  margin-top: 3px;
+}
+
+#current,#duration {
+  padding: 2em 0 1.5em 0;
+  font-size: 12px;
+  color: #fff;
+  width: 4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#current {
+  padding-left:10px;
+}
+
+#duration {
+  color:#777;
+}
+
+.divide {
+  font-size: 12px;
+  color:#777;
+}
+
+/* Time slider */
+input[type=range]#slider {
+  position: absolute;
+  left:0px;
+  bottom: 60px;
+  outline: none;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 10px;
+  background:rgba(0,0,0,.2);
+}
+
+input[type=range]#slider::-webkit-slider-thumb {
+  position: relative;
+  -webkit-appearance: none;
+  background:#fff;
+  height: 20px;
+  width: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+input[type=range]#slider::-webkit-slider-thumb:before {
+  position: absolute;
+  z-index:-99999;
+  top: 4px;
+  left: -990px;
+  width:1000px;
+  height:10px;
+  content:"";
+  background:#27aae1;
+}
+
+input[type=range]#slider::-webkit-slider-thumb:after {
+  position: absolute;
+  z-index:1000000000;
+  top:26%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  width:10px;
+  height:10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  content:"";
+  background: #ccc;
+}
+
+::-webkit-media-controls {
+  display:none !important;
+}
+
+/* Icons - SVG sprite with PNG fallback */
+[class*=icon-] {
+  background: url(../img/controls.png);
+  background: url(../img/controls.svg);
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.icon-play {
+  background-position: -25px -12px;
+}
+
+.icon-pause {
+  background-position: -76px -12px;
+}
+
+.icon-mute {
+  background-position: -123px -12px;
+}
+
+.icon-unmute {
+  background-position: -173px -12px;
+}
+
+.icon-full {
+  background-position: -220px -12px;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+/* Landscape mobile & down */
+@media (max-width: 30em) {
+  .videoBtn {
+    width:20%!important;
+  }
+  .divide {
+    margin:0 4px 0 20px;
+  }
+
+  #videoWrap {
+    padding-bottom: 60%;
+  }
+
+  #controls {
+    opacity:1;
+  }
+}
+
+/* Portrait tablet to landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  #videoWrap {
+    padding-bottom: 50%;
+  }
+
+  #controls {
+    opacity:1;
+  }
+}
+
+/* Landscape to small desktop */
+@media (min-width: 50em) and (max-width: 68.750em) {
+  #controls {
+    opacity:1;
+  }
+
+  #videoWrap {
+    padding-bottom: 50%;
+  }
+}
+
