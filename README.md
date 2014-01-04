@@ -1,4 +1,4 @@
-Mockbuster
-==========
+Mockbuster's Landing Page
+==========================
 
-A HTML5 video player
+Landing page in development
