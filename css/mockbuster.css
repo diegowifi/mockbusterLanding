@@ -66,12 +66,10 @@ h1
 
 .demoInfo
 {
-  width: 35%;
-  height: auto;
-  margin-left:30px;
+  width: 38%;
   display:inline-block;
     vertical-align:top;
-  padding:10px;
+  margin-left:20px;
 }
 
 .demoInfo p
@@ -80,12 +78,13 @@ h1
   font-size: 30px;
   color: #FFF;
   margin-bottom: 20px;
-  margin-left: 15px;
+  margin-left: 20px;
+  margin-right:20px;
 }
 
 .demoInfo a {
   background-color: #272133;
-  padding: 20px 70px;
+  padding:32px 70px;
   width: 60%;
   color: #FFF;
   font-size: 25px;
@@ -271,14 +270,15 @@ margin-top:45px;
 
 /* Main Wrap */
 #videoWrap {
-  position: relative;
-  margin: 0 auto;
-  max-width:900px;
+    display:block;
+  position:relative;
+  max-width:800px;
   font-family: "Helvetica Neue", Helvetica, Arial;
   overflow: hidden;
-  padding-bottom: 39.6%;
+  padding-bottom: 38.2%;
   padding-top: 0px;
-  height: 0;
+  height:0;
+ width: 100%;
 }
 
 /* The actual video */
@@ -513,3 +513,25 @@ video::-webkit-media-controls-enclosure {
   }
 }
 
+
+@media (min-width: 68.750em) {
+  #controls {
+    opacity:1;
+  }
+
+  #videoWrap {
+    padding-bottom: 53%;
+    margin-right:20px;
+  }
+}
+
+
+[class*='bit-'] {
+display: inline-block;
+
+
+}
+
+.bit-2 {
+    width: 60%;
+}
