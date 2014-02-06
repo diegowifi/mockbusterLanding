@@ -83,22 +83,27 @@ h1
 }
 
 .demoInfo a {
-  background-color: #272133;
+  border: solid 3px #fff;
   padding:32px 70px;
   width: 60%;
-  color: #FFF;
+  color: #fff;
   font-size: 25px;
   margin-top: 20px;
   font-family: Helvetica;
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 
 .demoInfo a:hover {
-  background-color: #312942;
+  background-color: #eaeaea;
+    color:#292235;
+      -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition:  ease-in-out 0.25s;
+    -o-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
 }
 
 .info
@@ -113,6 +118,7 @@ h1
   width: 90%;
   height: auto;
   margin: 0 auto;
+   padding:25px 0;
     color:#292235;
 }
 
@@ -123,7 +129,7 @@ h1
 }
 
 .info p{
-    color:#5b5b5b;
+    color:#4f4f4f;
     font-family:Helvetica;
     padding-top:10px;
 }
@@ -277,7 +283,7 @@ margin-top:45px;
   overflow: hidden;
   padding-bottom: 38.2%;
   padding-top: 0px;
-  height:0;
+  height:60px;
  width: 100%;
 }
 
@@ -296,37 +302,38 @@ margin-top:45px;
   position: absolute;
   z-index: 2147483647;
   width: 100%;
-  bottom: 3px;
+  bottom: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
   background: #272133;
   opacity: 0;
   color:#fff;
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  -ms-transition: all 2s ease-in-out;
-  -o-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #mainVideo:hover ~ #controls {
   opacity: 1;
-  -webkit-transition: all 0s ease-in-out;
-  -moz-transition: all 0s ease-in-out;
-  -ms-transition: all 0s ease-in-out;
-  -o-transition: all 0s ease-in-out;
-  transition: all 0s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #controls:hover {
   opacity: 1;
-  -webkit-transition: all 0s ease-in-out;
-  -moz-transition: all 0s ease-in-out;
-  -ms-transition: all 0s ease-in-out;
-  -o-transition: all 0s ease-in-out;
-  transition: all 0s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
+
 
 /* Default Button */
 .videoBtn {
@@ -506,6 +513,7 @@ video::-webkit-media-controls-enclosure {
 @media (min-width: 50em) and (max-width: 68.750em) {
   #controls {
     opacity:1;
+        
   }
 
   #videoWrap {
@@ -517,6 +525,7 @@ video::-webkit-media-controls-enclosure {
 @media (min-width: 68.750em) {
   #controls {
     opacity:1;
+    bottom:0;
   }
 
   #videoWrap {
