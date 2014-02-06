@@ -423,13 +423,13 @@ input[type=range]#slider::-webkit-slider-thumb:before {
   width:1000px;
   height:10px;
   content:"";
-  background:#27aae1;
+  background:#CCCCCC;
 }
 
 input[type=range]#slider::-webkit-slider-thumb:after {
   position: absolute;
   z-index:1000000000;
-  top:26%;
+  top:25%;
   left:0;
   right:0;
   margin:0 auto;
@@ -525,7 +525,7 @@ video::-webkit-media-controls-enclosure {
 @media (min-width: 68.750em) {
   #controls {
     opacity:1;
-    bottom:0;
+    bottom:0px;
   }
 
   #videoWrap {
