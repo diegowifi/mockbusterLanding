@@ -1,27 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Signika);
 
-
-* {
-  margin:0;
-  padding:0;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #4a297c;
 }
 
-header{
-margin: 0 auto;
-width:90%;
-    margin-top:20px;
-    margin-bottom:20px;
-}
 
-h1
+header
 {
   font-size: 70px;
   font-family: 'Signika', sans-serif;
   color:#FFF;
+
   letter-spacing: 5px;
 
   -webkit-text-shadow:
@@ -66,10 +60,11 @@ h1
 
 .demoInfo
 {
-  width: 38%;
+  /*width: 38%;*/
   display:inline-block;
     vertical-align:top;
-  margin-left:20px;
+    padding:30px  0 60px 0;
+  /*margin-left:20px;*/
 }
 
 .demoInfo p
@@ -83,120 +78,77 @@ h1
 }
 
 .demoInfo a {
-  background-color: #272133;
+   border: solid 3px #fff;
   padding:32px 70px;
   width: 60%;
-  color: #FFF;
+  color: #fff;
   font-size: 25px;
   margin-top: 20px;
   font-family: Helvetica;
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 
 .demoInfo a:hover {
-  background-color: #312942;
+   background-color: #eaeaea;
+    color:#292235;
+      -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition:  ease-in-out 0.25s;
+    -o-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
 }
 
 .info
 {
+  background-color: #ededed;
   width: 100%;
   height: auto;
-  background-color: #cecece;
+  margin-bottom: -20px;
+  padding:60px 0 60px 0 ;
 }
 
-.info-inner
+.info i
 {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-    color:#292235;
+ display: block;
+  text-align: center;
+  color: #4A297C;
+  padding: 10px 0 10px 0;
 }
 
 .info h2{
     color:#292235;
     font-family:Helvetica;
     font-size:26px;
+    text-align: center;
 }
 
 .info p{
     color:#5b5b5b;
     font-family:Helvetica;
     padding-top:10px;
+    text-align: center;
 }
-
-.info i{
-padding:10px 0 10px 0;
-}
-
-.part1, .part2, .part3
-{
-    width:29%;
-    height:300px;
-    display:inline-block;
-    margin-right:20px;
-    text-align:center;
-    padding:10px;
-    margin:10px 40px 10px 0;
-    vertical-align:top;
-}
-
-.part3{
-margin-right:-20px;
-}
-/*
-.part1
-{
-  width: 31.6%;
-  height: 250px;
-  display:inline-block;
-  margin:20px 20px 20px 0;
-  text-align: center;
-  border: solid 2px #adadad;
-    float:left;
-  vertical-align: top;
-padding:10px;
-}
-.part2
-{
-  width: 31.6%;
-  height: 250px;
-  display:inline-block;
-  margin:20px 19px 20px 4px;
-  text-align: center;
-  border: solid 2px #adadad;
-vertical-align: top;
-}
-.part3
-{
-  width: 31.6%;
-  height:250px;
-  display:inline-block;
-  margin:20px 0px 20px 0;
-  text-align: center;
-  border: solid 2px #adadad;
-vertical-align: top;
-}
-*/
 
 
 .install
 {
-  width: 90%;
-  height: auto;
   background-color: #272133;
-  margin: 20px auto;
-  margin-bottom: 20px;
-  color:#cecece;
+  margin: 20px 0;
+  color:#ededed;
+  margin-bottom: -20px;
+  padding: 30px 0 80px 0;
 }
 
 .install h2{
+  width: 100%;
 font-family:Helvetica;
-font-size:30px;
-padding:20px;
+font-size:34px;
+padding:20px 0 10px 10px;
+border-bottom:solid 2px #ededed;
+margin-bottom: 30px;
 }
 
 .install h3{
@@ -207,22 +159,7 @@ font-size:22px;
 .install p{
 font-family:Helvetica;
     font-size:16px;
-}
-
-.ins-1, .ins-2, .ins-3
-{
-    width:29.8%;
-    height:200px;
-    display:inline-block;
-    margin:0 20px 10px 0px;
-    padding:10px;
-    vertical-align:top;
-}
-
-.ins-1{margin-left:10px;}
-
-.ins-3{
-margin-right:-20px;
+padding-bottom: 40px;
 }
 
 .credits
@@ -234,37 +171,33 @@ margin-right:-20px;
   margin-bottom: -20px;
 }
 
-.profile
-{
-width: 70%;
-height:auto;
-margin: 0 auto;
-padding-bottom:80px;
+.profile{
+  background-color:#ededed;
+  padding: 40px 0 40px 0;
 }
 
 .profile img
 {
-  width:100px;
+margin-left: auto;
+margin-right: 0px;
+width:100px;
   height:100px;
   border-radius: 50%;
-  margin-top:40px;
-  vertical-align:top;
-  display:inline-block;
+  vertical-align: middle;
+  display:block;
+  padding:30px 0 30px 0 ;
 }
 
 .profile p
 {
-  width: 86.8%;
+  width: 86%;
+  padding-top: 35px;
+  padding-bottom: 35px;
   display:inline-block;
-margin-top:45px;
   color: #5b5b5b;
   font-size: 16px;
-  letter-spacing:1px;
   font-family:Helvetica;
-  margin-left:10px;
 }
-
-
 
 
 
@@ -534,4 +467,22 @@ display: inline-block;
 
 .bit-2 {
     width: 60%;
+}
+
+@media (max-width: 768px) {
+
+ .info p{
+  padding-bottom: 50px;
+ }
+
+
+ .profile img{
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 0;
+ } 
+
+ .profile p{
+  width: 100%;
+ }
 }
