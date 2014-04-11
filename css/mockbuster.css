@@ -134,20 +134,13 @@ header
 
 .message{
 width: 100%;
-<<<<<<< HEAD
 height: 800px;
 background-repeat:no-repeat;
-background-image: url(img/people.jpg);
+background-image: url(../img/people.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
-=======
-height: 700px;
-background-repeat:no-repeat;
-background-image: url(http://mechgag.com/wp-content/uploads/2013/12/akilli-telefonlar-ve-televizyon.jpg);
-background-size: cover;
-background-attachment: fixed;
-background-position: center;
+/*background-image: url(http://mechgag.com/wp-content/uploads/2013/12/akilli-telefonlar-ve-televizyon.jpg);*/
 margin-bottom:-20px;
 
 filter: brightness(50%);
@@ -155,7 +148,6 @@ filter: brightness(50%);
 	-moz-filter: brightness(50%);
 	-o-filter: brightness(50%);
 	-ms-filter: brightness(50%);
->>>>>>> 39a6f6915b331ba47665b6c715cdb5276febf9cb
 }
 
 .install
