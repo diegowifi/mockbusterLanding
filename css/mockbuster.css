@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #4a297c;
+  background-color: #2F9089;
 }
 
 
@@ -42,11 +42,8 @@ header
 }
 
 
-.section1{ 
-  width: 90%;
-  height: auto;
-  margin: 0px auto;
-  margin-bottom:40px;
+.secOne{ 
+ 
 }
 
 .demoVideo
@@ -88,17 +85,17 @@ header
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  border-radius:10px;
+  border-radius:5px;
 }
 
 
 .demoInfo a:hover {
    background-color: #eaeaea;
     color:#292235;
-      -webkit-transition: background-color 500ms ease-out 1s;
-    -moz-transition:  ease-in-out 0.25s;
-    -o-transition: ease-in-out 0.25s;
-    transition: ease-in-out 0.25s;
+      -webkit-transition: background-color 500ms ease-out 0.25s;
+    -moz-transition:  ease-in-out 0.15s;
+    -o-transition: ease-in-out 0.15s;
+    transition: ease-in-out 0.15s;
 }
 
 .info
@@ -107,14 +104,14 @@ header
   width: 100%;
   height: auto;
   margin-bottom: -20px;
-  padding:60px 0 60px 0 ;
+  padding:60px 0 80px 0 ;
 }
 
 .info i
 {
  display: block;
   text-align: center;
-  color: #4A297C;
+  color: #1F5E5A;
   padding: 10px 0 10px 0;
 }
 
@@ -142,16 +139,33 @@ background-attachment: fixed;
 background-position: center;
 margin-bottom:-20px;
 
-filter: brightness(50%);
-	-webkit-filter: brightness(50%);
-	-moz-filter: brightness(50%);
-	-o-filter: brightness(50%);
-	-ms-filter: brightness(50%);
+/*filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);*/
+}
+
+.msg{
+  background-color: rgba(31, 94, 90, 0.9);
+  width: 500px;
+  height: 300px;
+  padding: 50px 0 0px 0;
+  margin-right: 50px;
+  margin-left: auto;
+}
+
+.message h1{
+  font-size: 38px;
+  font-family: "Helvetica";
+  color: white;
+ padding:80px 60px 0px 60px;
+  text-align: center;
 }
 
 .install
 {
-  background-color: #272133;
+  background-color: #1F5E5A;
   margin: 20px 0;
   color:#ededed;
   margin-bottom: -20px;
@@ -204,13 +218,19 @@ width:100px;
   padding:30px 0 30px 0 ;
 }
 
+.profile h1{
+  color: #1F5E5A;
+  font-size: 26px;
+  font-family:Helvetica;
+}
+
 .profile p
 {
   width: 86%;
   padding-top: 35px;
   padding-bottom: 35px;
   display:inline-block;
-  color: #5b5b5b;
+  color: #1F5E5A;
   font-size: 16px;
   font-family:Helvetica;
 }
