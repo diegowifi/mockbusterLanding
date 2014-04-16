@@ -1,4 +1,4 @@
-Mockbuster video player
+Mockbuster´s landing page
 =================
 
-HTML5 video player
+This repo is dedicated to be the landing page of Mockbuster, a HTML5 video player.
