@@ -43,20 +43,6 @@ header
   -6px 6px 0px #1F5E5A;
 }
 
-
-.secOne{ 
- 
-}
-
-.demoVideo
-{
-    border:solid 2px #000;
-  width:61.8%;
-  height: 410px;
-  display:inline-block;
-    margin-bottom:20px;
-}
-
 .demoInfo
 {
   /*width: 38%;*/
@@ -139,12 +125,6 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 margin-bottom:-20px;
-
-/*filter: brightness(50%);
-  -webkit-filter: brightness(50%);
-  -moz-filter: brightness(50%);
-  -o-filter: brightness(50%);
-  -ms-filter: brightness(50%);*/
 }
 
 .msg{
@@ -240,7 +220,7 @@ width:100px;
 .profile p
 {
   width: 86%;
-  padding-top: 35px;
+  padding-top: 15px;
   padding-bottom: 35px;
   display:inline-block;
   color: #1F5E5A;
@@ -279,7 +259,7 @@ width:100px;
   position: absolute;
   z-index: 2147483647;
   width: 100%;
-  bottom: 3px;
+  bottom: 0px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -399,7 +379,7 @@ input[type=range]#slider::-webkit-slider-thumb:before {
   width:1000px;
   height:10px;
   content:"";
-  background:#27aae1;
+  background:#ccc;
 }
 
 input[type=range]#slider::-webkit-slider-thumb:after {
@@ -520,6 +500,11 @@ display: inline-block;
 }
 
 @media (max-width: 768px) {
+
+#videoWrap{
+margin-top: 0;
+margin-bottom: 60px;
+}
 
 .demoInfo a{
   width: 70%;
